@@ -35,27 +35,33 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 /* nav bar */
 .nav_bar {
     flex: 1;
     background-color: var(--background-color);
     padding: 0px 30px;
+    border-bottom: 2px solid #414141;
 }
 
 .nav_bar_logo {
     background-color: var(--background-color);
     color: var(--primary-text-color);
 }
+
 .arrow_left_btn {
     margin-left: 20px;
     padding: 6px 6px 6px 12px;
 }
+
 .arrow_right_btn {
     padding: 6px 12px 6px 6px;
 }
+
 .arrow_left_btn img {
     width: 30px;
 }
+
 .arrow_right_btn img {
     width: 30px;
 }
@@ -256,9 +262,11 @@ body {
     background-color: var(--primary-color);
     color: var(--primary-text-color);
 }
+
 .successfully_created .mobile_screen_body {
     padding-bottom: 0;
 }
+
 .successfully_created .mobile_screen_body_lable {
     align-self: flex-start;
     padding: 0 0 10px 14px;
@@ -268,43 +276,189 @@ body {
 .sign_up.mobile_screen {
     padding: 10px;
 }
+
 .sign_up .mobile_screen_header {
     height: 52px;
 }
+
 .sign_up .mobile_screen_body {
     padding-bottom: 0;
 }
+
 .sign_up .registration-title {
     font-size: 22px;
     font-weight: 700;
-    padding: 18px 0px 12px 0px ;
+    padding: 18px 0px 12px 0px;
 }
+
 .sign_up .registration-description {
     font-size: 16px;
     padding: 2px 0 20px 0;
     line-height: 20px;
 }
+
 .sign_up .instruction-message {
     font-size: 14px;
     line-height: 18px;
 }
+
 .sign_up .login-information {
     font-size: 22px;
     font-weight: 700;
     padding: 30px 0 18px 0;
 }
+
 .sign_up .label_input_wrap {
     padding: 0 40px 0 12px;
 }
+
 .sign_up .personal-info {
     font-size: 22px;
     font-weight: 700;
     padding: 30px 0 18px 0;
 }
+
 .sign_up .btn {
     width: 100%;
     margin-bottom: 40px;
 }
+
 .sign_up .mobile_screen_body_btn_wrap {
     margin-bottom: 10px;
 }
+
+/* index page*/
+.index.body {
+    padding: 0;
+    background-color: #131313;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.index.body .row {
+    flex-wrap: nowrap;
+}
+
+.index.body .col-sm-10 {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    background-color: var(--background-color);
+    padding-left: 18px;
+    margin-bottom: 150px;
+}
+
+.menu_header {
+    color: var(--primary-text-color);
+    margin-left: 4px;
+    padding: 28px 0 18px 0;
+    border-bottom: 2px solid #414141;
+}
+
+.hello {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.user_name {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.menu_body {
+    text-align: center;
+    padding: 26px 0;
+}
+
+.menu_item {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px 6px 6px 16px;
+    width: 96%;
+    margin-bottom: 16px;
+    background-color: #414141;
+    color: var(--primary-text-color);
+    text-align: start;
+}
+
+.menu_item.setting {
+    margin-top: 40px;
+}
+
+.menu_item_wrap {
+    margin-top: 36px;
+}
+
+.menu_title {
+    color: var(--primary-text-color);
+    font-size: 12px;
+    font-weight: 500;
+    text-align: start;
+    padding-left: 6px;
+}
+
+.index.body .mobile_screen {
+    max-width: 1000px;
+    background-color: var(--background-color);
+    border: 0;
+    margin-top: 50px;
+    height: 76%;
+}
+
+.index.body .mobile_screen_header {
+    background-color: #1b1b1b;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 0;
+    height: 4%;
+}
+
+.index.body .mobile_screen_body {
+    background-color: var(--background-color);
+    padding: 40px;
+}
+
+.index.body .mobile_screen_item {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.index.body .mobile_screen_item_title_1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.index.body .mobile_screen_item_content_1 {
+    padding: 20px;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.index.body .mobile_screen_item_title_2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.index.body .mobile_screen_item_content_2 {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+/* copyright */
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    color: var(--primary-text-color);
+    font-weight: 600;
+    padding: 8px 22px;
+    background-color: var(--background-color);
+}
+
+.study_abroad {}
+
+.copyright_wrap {}
+
+.study_abroad {}
